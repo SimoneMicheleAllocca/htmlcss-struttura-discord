@@ -11,14 +11,14 @@
     }
 /* HEADER */
     .nav-bar{
-        background-color: aquamarine;
+        background-color: #add8e6;
         height: 100px;
         padding: 25px;
         
     }
 
     nav{
-        background-color: yellow;
+        background-color: #daa520;
         display: flex;
         justify-content: center;
         margin-left: auto;
@@ -46,7 +46,7 @@
     /* PRIMA SEZIONE BANNER */
     .banner-blu{
         height: 500px;
-        background-color: blue;
+        background-color: #00008b;
         padding: 50px;
         display: flex;
         justify-content: center;
@@ -60,7 +60,7 @@
         justify-content: center;
         align-items: center;
         height: 350px;
-        background-color: palevioletred;
+        background-color:#EE82EE;
         width: 600px;
     }   
     
@@ -78,23 +78,23 @@
         display: flex;
         justify-content: center;
         width: 60%;
-        background-color: rgb(4, 163, 255);
+        background-color: #1e90ff;
         border: 1px dashed black;
-    }    
-    
+        
+    }
     .rosa{
         height: 350px;
         display: flex;
         justify-content: center;
         width: 40%;
-        background-color: rgb(253, 133, 199);
+        background-color: #ffc0cb;
         border: 1px dashed black;
         
     }
 
     /* SECONDA SEZIONE A DUE COLONNE */
         .background{
-            background-color: lightgray;
+            background-color: #d3d3d3;
             height: 500px;
             display: flex;
             justify-content: center;
@@ -105,7 +105,7 @@
 
     /* QUARTA SEZIONE */
         .sfondo{
-            background-color: lightgray;
+            background-color: #d3d3d3;
             height: 700px;
             padding: 50px;
             display: flex;
@@ -114,7 +114,7 @@
         }
 
         .verde{
-            background-color: green;
+            background-color: #228b22;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -125,7 +125,7 @@
 
         /* FOOTER TOP */
         .sfondo-footertop{
-            background-color: rgb(70, 68, 68);
+            background-color: #23272a;
             height: 500px;
             display: flex;
             justify-content: center;
@@ -140,7 +140,7 @@
         .item-rosa{
             width:20%;
             height: 450px;
-            background-color: pink;
+            background-color: #f08080;
             border: 1px dashed black;
             display: flex;
             flex-grow: 2;
@@ -148,7 +148,7 @@
         .item-blu{
             width: 20%;
             height: 450px;
-            background-color: blue;
+            background-color: #20b2aa;
             border:1px dashed black;
             display: flex;
             flex-grow: 1;
@@ -156,20 +156,20 @@
         
         /* FOOTER BOTTOM */
         .background-footer{
-            background-color: grey;
+            background-color: #23272a;
             margin-top: 5px;
             height: 100px;
             display: flex;
         }
         .nav-footer{
-            background-color: aqua;
+            background-color: #7fffd4;
             height: 80px;
             width: 700px;
             display: flex;
             justify-content: space-between;
         }    
         button{
-            background-color: pink;
+            background-color: #ffb6c1;
             border: 1px dashed black;
             padding:5px;
             display: flex;
