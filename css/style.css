@@ -65,7 +65,7 @@
     }   
     
     /* PRIMA SEZIONE A DUE COLONNE */
-    .riga-sup{
+    .riga-sup, .riga-centr{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -86,11 +86,20 @@
         height: 350px;
         display: flex;
         justify-content: center;
-        
         width: 40%;
         background-color: rgb(253, 133, 199);
         border: 1px dashed black;
+        
     }
+
+    /* SECONDA SEZIONE A DUE COLONNE */
+        .background{
+            background-color: lightgray;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     
         
