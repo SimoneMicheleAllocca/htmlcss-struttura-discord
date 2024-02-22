@@ -8,5 +8,34 @@
 /* HEADER */
     .nav-bar{
         background-color: aquamarine;
+        height: 100px;
+        padding: 25px;
+        
+    }
+
+    nav{
+        background-color: yellow;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 700px;;
+        border: 2px dashed black;
+    }
+
+    .logo{
+        border-right: 3px dashed black;
+        text-align: left;
+        padding: 10px;
+    }
+    .link{
+        text-align: center;
+        padding: 10px;
+    }
+    .login{
+        border-left:3px dashed black; 
+        text-align: right;
+        padding: 10px;
     }
 
