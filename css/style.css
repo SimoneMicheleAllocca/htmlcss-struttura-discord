@@ -65,7 +65,7 @@
     }   
     
     /* PRIMA SEZIONE A DUE COLONNE */
-    .riga-sup, .riga-centr{
+    .riga-sup, .riga-centr, .riga-ultim{
         display: flex;
         justify-content: center;
         align-items: center;
