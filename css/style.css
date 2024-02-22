@@ -4,7 +4,10 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+/* CONTAINER */
+    .container{
+    width: 700px;
+    }
 /* HEADER */
     .nav-bar{
         background-color: aquamarine;
@@ -20,8 +23,8 @@
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        width: 700px;;
         border: 2px dashed black;
+        
     }
 
     .logo{
@@ -39,3 +42,24 @@
         padding: 10px;
     }
 
+    /* PRIMA SEZIONE BANNER */
+    .banner-blu{
+        height: 500px;
+        background-color: blue;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .banner-rosa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        background-color: palevioletred;
+        width: 600px;
+    }    
+        
+
+    
