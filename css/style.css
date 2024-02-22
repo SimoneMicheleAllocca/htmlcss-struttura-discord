@@ -152,7 +152,33 @@
             border:1px dashed black;
             display: flex;
             flex-grow: 1;
+        } 
+        
+        /* FOOTER BOTTOM */
+        .background-footer{
+            background-color: grey;
+            margin-top: 5px;
+            height: 100px;
+            display: flex;
+        }
+        .nav-footer{
+            background-color: aqua;
+            height: 80px;
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
         }    
+        button{
+            background-color: pink;
+            border: 1px dashed black;
+            padding:5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }    
+            
+        
         
 
     
